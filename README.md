@@ -2,6 +2,11 @@
 Skyway FundOne Utility
 
 ### Setup
+
+`
+$ npm install
+`
+
 This project uses dotenv (.env) file for configuration. Please copy '.env.example' to '.env' and adjust configuration values to begin using. You will need an **Infura API key**, the fund's **send-from address**, and **secret key**. Like the following:
 
 	INFURA_API_KEY=abc123
@@ -10,10 +15,6 @@ This project uses dotenv (.env) file for configuration. Please copy '.env.exampl
 	SEND_FROM_SECRETKEY=0xsendfromprivatekey
 
 The project name and contract address can be updated also. Remember if the contract is updated, then the 'abi.json' file attached to this repo should also be updated to match. It is needed to communicate to the blockchain.
-
-`
-$ npm install
-`
 
 ### Create a wallet
 
