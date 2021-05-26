@@ -9,6 +9,8 @@ This project uses dotenv (.env) file for configuration. Please copy '.env.exampl
 	SEND_FROM_ADDRESS=0xsendfromaddress
 	SEND_FROM_SECRETKEY=0xsendfromprivatekey
 
+The project name and contract address can be updated also. Remember if the contract is updated, then the 'abi.json' file attached to this repo should also be updated to match. It is needed to communicate to the blockchain.
+
 `
 $ npm install
 `
